@@ -5,6 +5,7 @@ import { AuthRoutingModule } from './auth.routing.module';
 import { LoginComponent } from './login/login.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { AuthComponent } from './auth.component';
 
 
 
@@ -14,11 +15,15 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
     LoginComponent,
     ForgotPasswordComponent,
     ResetPasswordComponent,
+    AuthComponent
   ],
   imports: [
     CommonModule,
     AuthRoutingModule,
     RouterModule
+  ],
+  providers:[
+    
   ]
 })
 export class AuthModule { }

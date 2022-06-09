@@ -3,7 +3,7 @@ import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-auth',
-  templateUrl: './auth.component.html',
+  template: `<router-outlet></router-outlet>`,
   styleUrls: ['./auth.component.scss']
 })
 export class AuthComponent implements OnInit {
