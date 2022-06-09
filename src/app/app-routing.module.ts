@@ -1,9 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
-  {path: '', component:NavbarComponent}
+  {
+    path: 'auth', 
+    loadChildren: () => import("./modules_/auth/auth.module").then(x => x.AuthModule),
+    data: { preload: false, delay: false }
+  },
+  { path: "**", redirectTo: "auth" }
+
 ];
 
 @NgModule({
