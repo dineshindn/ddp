@@ -6,6 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { AuthComponent } from './auth.component';
+import { CoreModule } from 'src/app/core_/core.module';
 
 
 
@@ -20,7 +21,8 @@ import { AuthComponent } from './auth.component';
   imports: [
     CommonModule,
     AuthRoutingModule,
-    RouterModule
+    RouterModule,
+    CoreModule
   ],
   providers:[
     

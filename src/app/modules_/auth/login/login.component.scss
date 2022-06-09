@@ -1,0 +1,69 @@
+
+:host {
+    display: flex;
+    justify-content: center;
+    background-color:#eeeeee ;
+  }
+
+#login{
+    // background: rgb(54, 55, 64);
+    height: 100vh;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+
+    #login-container {
+        width: 380px;
+        // height: 582px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        padding: 32px;
+        box-sizing: border-box;
+        border-radius: 8px;
+    
+        .mat-form-field {
+            width: 100%;
+            min-width: 300px;
+          }
+        
+          mat-card-title, mat-card-content {
+            display: flex;
+            justify-content: center;
+          }
+        
+          .error {
+            padding: 16px;
+            width: 300px;
+            color: white;
+            background-color: red;
+          }
+        
+          .login-button {
+            height: 48px;
+            width: 316px;
+            left: 0px;
+            top: 0px;
+            border-radius: 8px;    
+          }
+
+          .forgot-password {
+            float: right;
+            padding: 10px;
+          }
+
+          .signup {
+            text-align: center;
+            display: inherit;
+            margin-top: 10px;
+          }
+
+    }
+      
+}
