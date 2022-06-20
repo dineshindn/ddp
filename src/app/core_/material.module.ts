@@ -15,6 +15,9 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatBadgeModule} from '@angular/material/badge';
+
 const matModules = [
   MatMenuModule,
   MatDatepickerModule,
@@ -32,7 +35,9 @@ const matModules = [
   MatSnackBarModule,
   MatDividerModule,
   MatListModule,
-  MatSidenavModule
+  MatSidenavModule,
+  MatToolbarModule,
+  MatBadgeModule
 ];
 
 
