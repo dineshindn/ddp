@@ -7,6 +7,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { AuthComponent } from './auth.component';
 import { CoreModule } from 'src/app/core_/core.module';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -16,7 +17,8 @@ import { CoreModule } from 'src/app/core_/core.module';
     LoginComponent,
     ForgotPasswordComponent,
     ResetPasswordComponent,
-    AuthComponent
+    AuthComponent,
+    RegisterComponent
   ],
   imports: [
     CommonModule,

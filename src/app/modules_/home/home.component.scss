@@ -1,0 +1,22 @@
+@import '../../styles/common-styles';
+
+.img {
+  padding: 10px;
+}
+.menu-spacer {
+    flex: 1 1 auto;
+}
+  
+.header {
+  background: white;
+  box-shadow: 0px 1px 6px 1px #ccc;
+  z-index: 1;
+  position: static;
+}
+
+.header-right{
+    a:hover, .menu:hover{
+        color: var(--ds-text-mediumEmphasis,#0052CC);
+        background-color: var(--ds-background-subtleNeutral-hover,rgba(222,235,255,0.9));
+    }
+}
